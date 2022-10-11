@@ -1,6 +1,45 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>se77</groupId>
-  <artifactId>mockito-playground</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>se77</groupId>
+	<artifactId>mockito-playground</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<maven.compiler.release>7</maven.compiler.release>
+	</properties>
+
+	<dependencies>
+		<!-- Basic Mockito Dependency required to write Tests with Mocks -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>4.8.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JUnit 5 Engine to run Tests -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.5.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JUnit 5 Runner to integrate with Mockito-->
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-runner</artifactId>
+			<version>1.5.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- This is required to use Mockito with JUnit 5 on the Mockito-Side-->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>4.6.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
 </project>
