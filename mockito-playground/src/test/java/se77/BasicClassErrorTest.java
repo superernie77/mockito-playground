@@ -1,6 +1,5 @@
 package se77;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -12,6 +11,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 // Example on how to test error/exception cases with Mockito.
+// For more info on Mockito check the Javadocs https://javadoc.io/static/org.mockito/mockito-core/3.12.4/org/mockito/Mockito.html
 @ExtendWith(MockitoExtension.class)
 public class BasicClassErrorTest {
 

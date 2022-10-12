@@ -11,6 +11,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 // This is an example for the simplest test with a mocked class. 
+// For more info on Mockito check the Javadocs https://javadoc.io/static/org.mockito/mockito-core/3.12.4/org/mockito/Mockito.html
 @ExtendWith(MockitoExtension.class)
 public class BasicClassTest {
 
