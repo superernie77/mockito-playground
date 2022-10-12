@@ -4,8 +4,10 @@
 	<artifactId>mockito-playground</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<!-- Set Java version to 18 -->
 	<properties>
-		<maven.compiler.release>7</maven.compiler.release>
+		<maven.compiler.target>18</maven.compiler.target>
+		<maven.compiler.source>18</maven.compiler.source>
 	</properties>
 
 	<dependencies>
