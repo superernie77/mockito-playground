@@ -17,11 +17,11 @@ public class BasicClassTest {
 
 	// mock the BasicService class. It is an dependency used in the BasicClass.
 	@Mock
-	BasicService service;
+	private BasicService service;
 
 	// Inject the mock into the class we want to test
 	@InjectMocks
-	BasicClass classToTest;
+	private BasicClass classToTest;
 
 	// Setup the behavior of the mocked class
 	@BeforeEach

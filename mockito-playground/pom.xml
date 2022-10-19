@@ -8,6 +8,9 @@
 	<properties>
 		<maven.compiler.target>18</maven.compiler.target>
 		<maven.compiler.source>18</maven.compiler.source>
+		<mockito.version>4.8.1</mockito.version>
+		<mockito.runner.version>1.9.1</mockito.runner.version>
+		<mockito.engine.version>5.9.1</mockito.engine.version>
 	</properties>
 
 	<dependencies>
@@ -15,7 +18,7 @@
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
-			<version>4.8.0</version>
+			<version>${mockito.version}</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -23,7 +26,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<version>5.5.2</version>
+			<version>${mockito.engine.version}</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -31,15 +34,15 @@
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-runner</artifactId>
-			<version>1.5.2</version>
+			<version>${mockito.runner.version}</version>
 			<scope>test</scope>
 		</dependency>
 
-		<!-- This is required to use Mockito with JUnit 5 on the Mockito-Side-->
+		<!-- This is required to use Mockito with JUnit 5 -->
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
-			<version>4.6.1</version>
+			<version>${mockito.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
