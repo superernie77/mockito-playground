@@ -9,4 +9,8 @@ public class ClassWithVoidMethods {
 	public void method2() {
 		System.out.println("Method 2 called");
 	}
+	
+	public void method3() {
+		System.out.println("Method 3 called");
+	}
 }
