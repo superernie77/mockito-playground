@@ -31,8 +31,7 @@ public class BasicServiceWithCustomAnswerTest {
 	
 	@Test
 	public void testCustomAnswer() {
-		String result = service.doStuffWithParameters("one", 2, false);
-		assertEquals("Answer of mock: service , first argument is: one", result);
+		assertEquals("Answer of mock: service , first argument is: one", service.doStuffWithParameters("one", 2, false));
 	}
 
 }
