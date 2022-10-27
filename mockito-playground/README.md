@@ -1,1 +1,1 @@
-# Collection of classes and testclasses that demonstrate Mockito features
+# Collection of classes and test classes that demonstrate Mockito features
